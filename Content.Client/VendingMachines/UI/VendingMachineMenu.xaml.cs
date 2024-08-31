@@ -121,10 +121,16 @@ namespace Content.Client.VendingMachines.UI
                 var itemName = Identity.Name(dummy, _entityManager);
                 var itemText = $"{itemName} [{entry.Amount}]";
 
+<<<<<<< HEAD
                 if (itemText.Length > longestEntry.Length)
                     longestEntry = itemText;
 
                 listData.Add(new VendorItemsListData(prototype.ID, itemText, i));
+=======
+                vendingItem.Text = $"{itemName} [{entry.Price} TK] [{entry.Amount}]";
+                vendingItem.Icon = icon;
+                filteredInventory.Add(i);
+>>>>>>> 9bfc4d9f4f709058529cd4bdc62e24d0fd8ce16e
             }
 
             VendingContents.PopulateList(listData);
