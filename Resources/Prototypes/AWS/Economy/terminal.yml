@@ -12,7 +12,7 @@
   name: service terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal.rsi.rsi
+    sprite: AWS/economy/terminal.rsi
     state: ser
 
 - type: entity
