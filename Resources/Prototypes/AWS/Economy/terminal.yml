@@ -12,8 +12,8 @@
   name: service terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/service.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi.rsi
+    state: ser
 
 - type: entity
   id: SecurityTerminal
@@ -21,8 +21,8 @@
   name: security terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/security.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi
+    state: sec
 
 - type: entity
   id: ScienceTerminal
@@ -30,8 +30,8 @@
   name: science terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/science.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi
+    state: sci
 
 - type: entity
   id: MedicalTerminal
@@ -39,8 +39,8 @@
   name: medical terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/medical.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi
+    state: med
 
 - type: entity
   id: CargoTerminal
@@ -48,8 +48,8 @@
   name: cargo terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/cargo.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi
+    state: cargo
 
 - type: entity
   id: CCTerminal
@@ -57,8 +57,8 @@
   name: central commandd terminal
   components:
   - type: Sprite 
-    sprite: AWS/economy/terminal/cc.rsi
-    state: icon
+    sprite: AWS/economy/terminal.rsi
+    state: c
 
  
 

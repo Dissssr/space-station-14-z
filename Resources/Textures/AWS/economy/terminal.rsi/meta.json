@@ -8,7 +8,22 @@
     "copyright": "Created by fantik (Discord) for SS220",
     "states": [
       {
-        "name": "icon"
+        "name": "ser"
+      },
+      {
+        "name": "sec"
+      },
+      {
+        "name": "sci"
+      },
+      {
+        "name": "med"
+      },
+      {
+        "name": "cc"
+      },
+      {
+        "name": "cargo"
       }
     ]
   }
